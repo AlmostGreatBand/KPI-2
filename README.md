@@ -1,4 +1,7 @@
-Шаблон для 2-гої роботи з архітектури ПЗ
----
+### Lab 2 kpi
 
-Використайте кнопку **"Use this template"**, щоб створити власний репозиторій.
+[Failed Github-Action test](https://github.com/AlmostGreatBand/KPI-2/actions/runs/333808270)
+
+[Passed Github-Action test](https://github.com/AlmostGreatBand/KPI-2/actions/runs/333937361)
+
+[Pull request test](https://github.com/AlmostGreatBand/KPI-2/actions/runs/333940761)
