@@ -1,23 +1,51 @@
 package lab2
 
 import (
-	"fmt"
-	"testing"
-
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
-func TestPrefixToPostfix(t *testing.T) {
-	res, err := PrefixToPostfix("+ 5 * - 4 2 3")
+func TestCalculatePostfix(t *testing.T) {
+	res, err := CalculatePostfix(" 4 2 - 3 * 5 + ")
 	if assert.Nil(t, err) {
-		assert.Equal(t, "4 2 - 3 * 5 +", res)
+		assert.Equal(t, 11.0, res)
+	}
+
+	res, err = CalculatePostfix(" 2 6 ^ 3 6 / +")
+	if assert.Nil(t, err) {
+		assert.Equal(t, 64.5, res)
+	}
+
+	res, err = CalculatePostfix(" 3 12 3 / 6 4 - ^ * ")
+	if assert.Nil(t, err) {
+		assert.Equal(t, 48.0, res)
+	}
+
+	res, err = CalculatePostfix(" 9 4 * 147 57 - 5 / - 35 7 / + 4 7 + 11 - - ")
+	if assert.Nil(t, err) {
+		assert.Equal(t, 23.0, res)
 	}
 }
 
-func ExamplePrefixToPostfix() {
-	res, _ := PrefixToPostfix("+ 2 2")
-	fmt.Println(res)
+func TestCalculatePostfixFailed(t *testing.T) {
+	_, err := CalculatePostfix(" 9 + ")
+	assert.NotNil(t, err)
 
+	_, err = CalculatePostfix(" + ")
+	assert.NotNil(t, err)
+
+	_, err = CalculatePostfix(" 9 + ")
+	assert.NotNil(t, err)
+
+	_, err = CalculatePostfix("qwerty")
+	assert.NotNil(t, err)
+
+	_, err = CalculatePostfix("1 2")
+	assert.NotNil(t, err)
+}
+
+func ExampleCalculatePostfix() {
+	CalculatePostfix(" 2 2 +")
 	// Output:
-	// 2 2 +
+	// 4
 }
