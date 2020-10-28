@@ -1,6 +1,7 @@
 package lab2
 
 import (
+	"fmt"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
@@ -46,7 +47,8 @@ func TestCalculatePostfixFailed(t *testing.T) {
 
 //Example of calculating postfix
 func ExampleCalculatePostfix() {
-	CalculatePostfix(" 2 2 +")
+	res, _ := CalculatePostfix(" 2 2 +")
+	fmt.Println(res)
 	// Output:
 	// 4
 }
