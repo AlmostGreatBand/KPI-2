@@ -16,7 +16,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af2cc9bd-c8ce-49f0-baaa-7c6e1ec1e811" name="Default Changelist" comment="feat(core): create test for postfix notation [./implementation_test.go]" />
+    <list default="true" id="af2cc9bd-c8ce-49f0-baaa-7c6e1ec1e811" name="Default Changelist" comment="feat(core): create test for postfix notation [./implementation_test.go]">
+      <change afterPath="$PROJECT_DIR$/handler_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Users\zasko\sdk\go1.15.2" />
+  <component name="GOROOT" path="E:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,10 +52,16 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Test.TestCalculatePostfixFailed in github.com/AlmostGreatBand/KPI-2">
-    <configuration name="TestCalculatePostfix in github.com/AlmostGreatBand/KPI-2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestComputeHandler_ComputeFailed in github.com/AlmostGreatBand/KPI-2">
+    <configuration name="TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="KPI-2" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -60,10 +69,10 @@
       <package value="github.com/AlmostGreatBand/KPI-2" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCalculatePostfix\E$" />
+      <pattern value="^\QTestComputeHandler_Compute\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCalculatePostfixFailed in github.com/AlmostGreatBand/KPI-2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="KPI-2" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -71,10 +80,10 @@
       <package value="github.com/AlmostGreatBand/KPI-2" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCalculatePostfixFailed\E$" />
+      <pattern value="^\QTestComputeHandler_Compute\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStack_CalculatePostfix in github.com/AlmostGreatBand/KPI-2 (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (5)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="KPI-2" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -82,10 +91,10 @@
       <package value="github.com/AlmostGreatBand/KPI-2" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestStack_CalculatePostfix\E$" />
+      <pattern value="^\QTestComputeHandler_Compute\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStack_CalculatePostfix in github.com/AlmostGreatBand/KPI-2 (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="KPI-2" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -93,10 +102,10 @@
       <package value="github.com/AlmostGreatBand/KPI-2" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestStack_CalculatePostfix\E$" />
+      <pattern value="^\QTestComputeHandler_Compute\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStack_CalculatePostfix in github.com/AlmostGreatBand/KPI-2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestComputeHandler_ComputeFailed in github.com/AlmostGreatBand/KPI-2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="KPI-2" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -104,16 +113,23 @@
       <package value="github.com/AlmostGreatBand/KPI-2" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestStack_CalculatePostfix\E$" />
+      <pattern value="^\QTestComputeHandler_ComputeFailed\E$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Test.TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (5)" />
+      <item itemvalue="Go Test.TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2" />
+      <item itemvalue="Go Test.TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (1)" />
+      <item itemvalue="Go Test.TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (2)" />
+      <item itemvalue="Go Test.TestComputeHandler_ComputeFailed in github.com/AlmostGreatBand/KPI-2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCalculatePostfixFailed in github.com/AlmostGreatBand/KPI-2" />
-        <item itemvalue="Go Test.TestCalculatePostfix in github.com/AlmostGreatBand/KPI-2" />
-        <item itemvalue="Go Test.TestStack_CalculatePostfix in github.com/AlmostGreatBand/KPI-2 (2)" />
-        <item itemvalue="Go Test.TestStack_CalculatePostfix in github.com/AlmostGreatBand/KPI-2 (1)" />
-        <item itemvalue="Go Test.TestStack_CalculatePostfix in github.com/AlmostGreatBand/KPI-2" />
+        <item itemvalue="Go Test.TestComputeHandler_ComputeFailed in github.com/AlmostGreatBand/KPI-2" />
+        <item itemvalue="Go Test.TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (2)" />
+        <item itemvalue="Go Test.TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (1)" />
+        <item itemvalue="Go Test.TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2" />
+        <item itemvalue="Go Test.TestComputeHandler_Compute in github.com/AlmostGreatBand/KPI-2 (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,50 +173,70 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="752" y="451" key="#GOROOT" timestamp="1603894231240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="451" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1603894231240" />
+    <state x="231" y="175" width="1275" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603894642277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="231" y="175" width="1275" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603894642277" />
     <state x="524" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603891862674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603891862674" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1603832437261">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="648" y="225" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1603894512164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="648" y="225" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603894512164" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1603897764604">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603832437261" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603817465439" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1603832437261">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603897764604" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1603897764603">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603832437261" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603817465438" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1603832437261">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603897764603" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1603897764603">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603832437261" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603817465438" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1603832437261">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603897764603" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1603897764603">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603832437261" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603817465438" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603832437262">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603897764603" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603897752535">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603832437262" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603817447913" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1603832437262">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603897752535" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1603897752535">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603832437262" />
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603817447913" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1603832437262">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603897752535" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1603897752535">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603832437262" />
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603817447912" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1603832437262">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603897752535" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1603897752535">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603832437262" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603817447913" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603897752535" />
     <state x="478" y="0" width="579" height="824" key="find.popup" timestamp="1603892709967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
