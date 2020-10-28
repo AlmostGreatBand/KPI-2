@@ -5,6 +5,8 @@ import (
 	"testing"
 )
 
+
+//Example of calculating postfix
 func TestCalculatePostfix(t *testing.T) {
 	res, err := CalculatePostfix(" 4 2 - 3 * 5 + ")
 	if assert.Nil(t, err) {
